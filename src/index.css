@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Colors */
+
+:root {
+  --white: #FFF;
+  --very-light-grayish-blue: hsl(240, 78%, 98%);
+  --light-grayish-blue: hsl(234, 14%, 74%);
+  --grayish-blue: hsl(233, 13%, 49%);
+  --dark-grayish-blue: hsl(232, 13%, 33%);
+  --purple: #6D72DE;
+  --linear-gradient: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+}
+
+/* Typography */
+
+html {
+  font-size: 15px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.plan {
+  color: var(--grayish-blue);
+}
+
+.plan:nth-of-type(even) {
+  color: var(--white);
+}
+
+/* --Headings */
+
+h1 {
+  color: var(--grayish-blue);
+  text-align: center;
+  font-size: 2.13333rem;
+  line-height: normal;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.86667rem;
+}
+
+/* --Paragraphs */
+
+.price {
+  font-size: 4.8rem;
+  line-height: 4.73333rem;
+  letter-spacing: -0.144rem;
+}
+
+.price span {
+  font-size: 2.66667rem;
+  line-height: normal;
+  letter-spacing: -0.08rem;
+}
+
+.info {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.86667rem;
+}

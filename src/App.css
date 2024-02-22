@@ -1,0 +1,17 @@
+.background {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 64px 0 71px 0;
+  background-color: var(--very-light-grayish-blue);
+  background-image: url('./assets/bg-top.svg');
+  background-repeat: no-repeat;
+  background-size: 471px 757px;
+  background-position: top -40px right -250px;
+
+  @media screen and (min-width: 1100px) {
+    padding: 71px 0 0 0;
+    background-image: url('./assets/bg-bottom.svg'), url('./assets/bg-top.svg');
+    background-size: 353px 304px, 471px 757px;
+    background-position: bottom left, top -40px right -250px;
+  }
+}

@@ -1,0 +1,13 @@
+.toggle-button-component {
+    width: fit-content;
+    margin: 40px auto 0 auto;
+    display: flex;
+    gap: 24px;
+}
+
+.option {
+    color: var(--grayish-blue);
+    font-size: 1rem;
+    line-height: 1.86667rem;
+    opacity: 0.5;
+}
