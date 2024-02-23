@@ -1,4 +1,4 @@
-button {
+.rect-button {
     font-family: inherit;
     text-align: center;
     font-size: 0.86667rem;
@@ -15,20 +15,19 @@ button {
     background: var(--linear-gradient);
 }
 
-button:hover {
-    
+.rect-button:hover {
     color: var(--purple);
     cursor: pointer;
     border: 1px solid var(--purple);
     background: var(--white);
 }
 
-.plan:nth-of-type(even) button {
+.plan:nth-of-type(even) .rect-button {
     color: var(--purple);
     background: var(--white);
 }
 
-.plan:nth-of-type(even) button:hover {
+.plan:nth-of-type(even) .rect-button:hover {
     color: var(--white);
     border: 1px solid var(--white);
     background: transparent;

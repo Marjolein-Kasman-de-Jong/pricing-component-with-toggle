@@ -2,7 +2,7 @@ import './button.css';
 
 function Button({ buttonText }) {
     return (
-        <button>{buttonText.toUpperCase()}</button>
+        <button className='rect-button'>{buttonText.toUpperCase()}</button>
     )
 }
 

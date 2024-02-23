@@ -1,11 +1,12 @@
 import './toggle-button.css';
 
 function ToggleButton({checked, toggleChecked}) {
+    console.log(checked)
     return (
-        <label className='toggle-button'>
-            <input type="checkbox" onClick={() => toggleChecked(!checked)}/>
+        <button className='toggle-button' tabIndex='0' onClick={() => toggleChecked(!checked)}>
+            <input type="checkbox" checked={checked} readOnly={true} />
             <span className="slider"></span>
-        </label>
+        </button>
     )
 }
 
