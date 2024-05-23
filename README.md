@@ -1,6 +1,6 @@
 # Pricing Component With Toggle
 
-[Frontend Mentor Challenge](https://www.frontendmentor.io/challenges/pricing-component-with-toggle-8vPwRMIC/hub)
+[Frontend Mentor Challenge]([https://www.frontendmentor.io/challenges/pricing-component-with-toggle-8vPwRMIC/hub](https://www.frontendmentor.io/challenges/pricing-component-with-toggle-8vPwRMIC))
 
 The challenge was to build out the pricing component and get it looking as close to the design as possible. Users should be able to:
 
